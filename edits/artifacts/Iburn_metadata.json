@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "burn",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/edits/burnContract.sol": "Iburn"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"localhost/edits/burnContract.sol": {
+			"keccak256": "0xff4ab8de68375a194b298ab55bd8dc6890f99611c31fcd3f43768d074125d306",
+			"urls": [
+				"bzz-raw://fb8d97a56033bc9483aa5017c626029c352faef6a20485982fb4da3b0199562f",
+				"dweb:/ipfs/QmbeUe9xuwkCC1gVGaqvCL9RMzkS79zps89qUVm9iZY4cL"
+			]
+		}
+	},
+	"version": 1
+}
